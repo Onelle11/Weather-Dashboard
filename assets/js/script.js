@@ -2,7 +2,7 @@
 var APIKey = "622fa2a3fad6cc197b2128f3f3b1d819";
 
 function getWeather(city) {
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city +  "&cnt=5&units=metric&appid=" + APIKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city +  "&cnt=5&units=metric&appid=" + APIKey;
     var forecastURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&cnt=5&appid=" + APIKey;
     var currentWeather = fetch(queryURL).then(response => response.json());
     var forecastWeather = fetch(forecastURL).then(response => response.json());
@@ -22,7 +22,7 @@ function displayData(data) {
         document.getElementById('temp-' + index).innerHTML = weather.main.temp + " C";
         document.getElementById('wind-' + index).innerHTML = weather.wind.speed + " kph";
         document.getElementById('humid-' + index).innerHTML = weather.main.humidity + " %";
-        document.getElementById('icon-' + index).innerHTML = '<img src="http://openweathermap.org/img/wn/' + weather.weather[0].icon + '@2x.png"/>';
+        document.getElementById('icon-' + index).innerHTML = '<img src="https://openweathermap.org/img/wn/' + weather.weather[0].icon + '@2x.png"/>';
     })
 }
 
