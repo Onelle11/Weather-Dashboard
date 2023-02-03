@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+    background: linear-gradient(#564de0, #9198e5);
+    color: white;
+}
+
+/**/
+
+.content {
+    display: flex;
+}
+
+/**/
+
+aside {
+    display: flex;
+    float: left;
+    padding: 10px;
+    width: 350px;
+}
+
+aside div {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+aside div hr {
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+}
+
+input {
+    margin: 10px 30px 10px 0px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 0px 0px 0px 140px;
+    display: flex;
+    background-color: rgb(137, 137, 222);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+/**/
+
+.weatherBox {
+    padding: 20px;
+    font-size: 20px;
+    border: solid black 1px;
+    margin: 10px 0px 0px 0px;
+    width: 70%;
+    
+}
+
+/**/
+
+.content1 {
+    display: flex;
+}
+
+aside .history {
+    height: 500px;
+}
+
+.forecast {
+    margin: 20px 0px 0px 0px;
+    border: solid black 1px;
+    width: 70%;
+    padding: 20px 10px 200px 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+

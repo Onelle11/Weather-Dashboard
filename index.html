@@ -4,9 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather Dashboard</title>
 </head>
+
 <body>
+    <header>
+        Weather Dashboard
+    </header>
+
+    <div class="content">
+    <aside class="search-content">
+        <div> 
+            Search for a City: 
+            <input type="text" id="search-input">
+            <button class="search-button" id="searchBtn"> Search </button>
+            <hr>
+        </div>
+    </aside>
+
+    <section class="weatherBox">
+        <div>
+            City Name: <span id="city"> </span>
+        </div>
+
+        <div>
+            Date: <span id="date"> </span>
+        </div>
+
+        <div>
+            Temp: <span id="temp"> </span>
+        </div>
+
+        <div>
+            Wind: <span id="wind"> </span>
+        </div>
+
+        <div>
+            Humidity: <span id="humid"> </span>
+        </div>
+    </section>
     
+    </div>
+
+    <div class="content1">
+    <aside class="history">
+        <ul id="search-history"></ul>
+    </aside>
+
+    <section class="forecast">
+        5 DAY FORECAST:
+
+        <div>
+            <div>
+                <p> Temp <span id="temp-0"></span></p>
+                <p> Wind <span id="wind-0"></span></p>
+                <p> Humidity <span id="humid-0"></span></p>
+                <p> Date <span id="date-0"></span></p>
+                <p> Icon <span id="icon-0"></span></p>
+            </div>
+
+            <div>
+                <p> Temp <span id="temp-1"></span></p>
+                <p> Wind <span id="wind-1"></span></p>
+                <p> Humidity <span id="humid-1"></span></p>
+                <p> Date <span id="date-1"></span></p>
+                <p> Icon <span id="icon-1"></span></p>
+            </div>
+
+            <div>
+                <p> Temp <span id="temp-2"></span></p>
+                <p> Wind <span id="wind-2"></span></p>
+                <p> Humidity <span id="humid-2"></span></p>
+                <p> Date <span id="date-2"></span></p>
+                <p> Icon <span id="icon-2"></span></p>
+            </div>
+
+            <div>
+                <p> Temp <span id="temp-3"></span></p>
+                <p> Wind <span id="wind-3"></span></p>
+                <p> Humidity <span id="humid-3"></span></p>
+                <p> Date <span id="date-3"></span></p>
+                <p> Icon <span id="icon-3"></span></p>
+            </div>
+
+            <div>
+                <p> Temp <span id="temp-4"></span></p>
+                <p> Wind <span id="wind-4"></span></p>
+                <p> Humidity <span id="humid-4"></span></p>
+                <p> Date <span id="date-4"></span></p>
+                <p> Icon <span id="icon-4"></span></p>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
