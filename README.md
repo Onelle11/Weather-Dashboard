@@ -6,5 +6,5 @@ A weather dashboard with form inputs that lets users search for a city and be pr
 
 ## Screenshot
 <div text-align="center">
-<img src="./assets/images/Weather_Dashboard.png">
+<img src="./assets/images/Weather_Dashboard.png" alt="weather">
 ## Deployed Site
